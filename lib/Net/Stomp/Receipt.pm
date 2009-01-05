@@ -14,7 +14,7 @@ use base 'Net::Stomp';
 #
 # I start the version in sync with Net::Stomp
 # (and hopes to keep it in that way)
-our $VERSION = '0.34';
+our $VERSION = '0.35';
 
 
 # Added a new configuration variable on creation,
@@ -120,7 +120,7 @@ Net::Stomp::Receipt - An extension to Net::Stomp (STOMP client) to allow transac
 
   use Net::Stomp::Receipt;
 
-  my $stomp = Net::Stomp::Recepit->new({
+  my $stomp = Net::Stomp::Receipt->new({
     hostname   => 'localhost',
     port       => '61613',
     PERSISTENT => 1,

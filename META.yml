@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:                Net-Stomp-Receipt
-version:             0.34
+version:             0.35
 abstract:            An extension to Net::Stomp (STOMP client) to allow transactional sends.
 license:             ~
 author:              
