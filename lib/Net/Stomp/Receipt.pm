@@ -14,7 +14,7 @@ use base 'Net::Stomp';
 #
 # I start the version in sync with Net::Stomp
 # (and hopes to keep it in that way)
-our $VERSION = '0.35';
+our $VERSION = '0.36';
 
 
 # Added a new configuration variable on creation,
